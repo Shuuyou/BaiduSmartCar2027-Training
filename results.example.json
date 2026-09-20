@@ -1,0 +1,16 @@
+{
+  "model": "ppyoloe_crn_l_300e_coco",
+  "images": [
+    {
+      "file": "vis_1.jpg",
+      "detections": [
+        { "class": "bottle", "count": 2, "max_score": 0.87 },
+        { "class": "person", "count": 1, "max_score": 0.92 }
+      ]
+    },
+    {
+      "file": "vis_2.jpg",
+      "detections": []
+    }
+  ]
+}
