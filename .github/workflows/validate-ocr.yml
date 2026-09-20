@@ -1,0 +1,15 @@
+name: task2-validate
+on:
+  push:
+    branches: ["**"]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: 校验任务产出
+        run: python tools/validate_ocr.py
