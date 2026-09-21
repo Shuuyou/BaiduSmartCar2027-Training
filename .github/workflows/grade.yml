@@ -1,0 +1,15 @@
+name: task0-warmup
+on:
+  push:
+    branches: ["**"]
+
+jobs:
+  grade:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: 自动判题
+        run: python tools/grade.py

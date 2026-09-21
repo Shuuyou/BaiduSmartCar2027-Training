@@ -1,0 +1,6 @@
+tower_1: low
+tower_2: ok
+tower_3: full
+tower_4: ok
+tower_5: ok
+low=1 ok=3 full=1
