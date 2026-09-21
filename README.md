@@ -6,7 +6,7 @@
 ## 任务要求
 
 1. 在 Ubuntu（双系统或 WSL2 均可）中完成 PaddlePaddle 与 PaddleDetection 的安装；
-2. 使用**官方预训练模型**对 `data/` 中的 **5 张图片**执行目标检测（图片自选，建议农业或道路场景）；
+2. 使用**官方预训练模型**对 `data/` 中的 **5 张指定图片**（img_1 – img_5，取自 Wikimedia Commons 免费版权图库，请勿增删）执行目标检测；
 3. 将带检测框的可视化结果输出至 `output/`，命名为 `vis_1.jpg` … `vis_5.jpg`；
 4. 将每张图检测到的目标类别与数量整理为 `results.json`，格式见 `results.example.json`；
 5. 在 `notes.md` 中记录全过程：每个报错原文、当时的尝试、最终结果；
