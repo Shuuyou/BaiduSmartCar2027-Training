@@ -15,6 +15,8 @@
 3. 所有学习记录、踩坑笔记与任务产出提交在自己的 fork 中——**提交轨迹是考核证据的一部分**；
 4. push 后 Actions 自动校验产出结构，校验结果见仓库 Actions 页签。
 
+> **首次 fork 后必看**：GitHub 默认禁用 fork 仓库的 Actions。请进入自己仓库的 `Actions` 页签，点击绿色按钮 `I understand my workflows, go ahead and enable them` 启用，否则 push 后不会自动判题。
+
 ## 分支一览
 
 | 分支 | 内容 | 状态 |
